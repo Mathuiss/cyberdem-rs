@@ -7,7 +7,6 @@ readme = "README.md"
 homepage = "https://cdn.ymaws.com/www.sisostandards.org/resource/resmgr/reference_documents_/siso-ref-072-2024.pdf"
 repository = "https://github.com/Mathuiss/cyberdem-rs"
 license = "MIT"
-license-file = "LICENSE"
 keywords = ["cyber", "modelling", "simulation", "effects"]
 
 [dependencies]
