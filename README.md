@@ -7,5 +7,5 @@ This library is a machine translation of [cyberdem-python](https://github.com/cm
 
 To install, type the following command:
 
-`cargo add cyberdem-rs`
+`cargo add cyberdem`
 
