@@ -214,13 +214,6 @@ pub enum CyberObjectEnum {
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone, PartialEq)]
-pub struct RelatedObjectStruct {
-    pub related_object_id: Uuid,
-    pub relationship_type: RelationshipTypeEnum,
-    pub related_object_privileges: Vec<String>,
-}
-
-#[derive(Serialize, Deserialize, Debug, Clone, PartialEq)]
 pub enum RelationshipTypeEnum {
     Administers,
     AdministeredBy,
@@ -232,6 +225,13 @@ pub enum RelationshipTypeEnum {
     Provides,
     ResidesOn,
     HasResident,
+}
+
+#[derive(Serialize, Deserialize, Debug, Clone, PartialEq)]
+pub struct RelatedObjectStruct {
+    pub related_object_id: Uuid,
+    pub relationship_type: RelationshipTypeEnum,
+    pub related_object_privileges: Vec<String>,
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone, PartialEq)]
